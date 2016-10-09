@@ -13,7 +13,7 @@ int countdown() {
     std::cin >> pointedTo;
     std::cout << "Starting to count down from " << pointedTo << " seconds:" << std::endl;
     for(pointedTo; pointedTo > 0; pointedTo--) {
-        std::cout  << "Time left: " << pointedTo << "\r" << std::flush;
+        std::cout  << "Time left: " << pointedTo << "   " << "\r" << std::flush;
         sleep(1);
 
     }
